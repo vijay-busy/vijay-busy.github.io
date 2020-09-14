@@ -37,33 +37,16 @@
     cursor: pointer;
     border-radius: 10px;
 }
-#inputField:focus,.addBtn:focus{
+#inputField:focus,.addBtn:focus,#myList p input:focus,#myList p button:focus{
     outline: none;
 }
-/* #myList li{
-    list-style-type: none;
-    background-color: rgb(179, 240, 122);
-    border-radius: 10px;
-    padding: 8px;
-    margin: 10px;
-}
-#myList li span button{
-    float: right;
-    border: none;
-    background-color: transparent;
-    font-weight: bold;
-    cursor: pointer;
-} 
-#myList li span button:focus{
-    outline:none;
-*/
 #myList p{
     margin: 5px auto;
 }
 #myList p input{
     border: none;
     height: 15px;
-    width: 80%;
+    width: 70%;
     padding: 5px;
     margin: 5px auto;
     border-top-left-radius: 10px;
