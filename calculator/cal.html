@@ -4,21 +4,6 @@
 	<title>Calculator</title>
 </head>
 <body>
-	<script type="text/javascript">
-		function dis(val){
-			document.getElementById('result').value+=val;
-		}
-		function solve() 
-		{ 
-			let x = document.getElementById("result").value;
-			let y = eval(x);//eval() is a fun used to solve the arthematic expression..
-			document.getElementById("result").value = y;
-		}
-		function clr()
-		{ 
-			document.getElementById("result").value = "";
-		}
-	</script>
 	<style type="text/css">
 		input[type="button"]{ 
 	         background-color:black; 
@@ -68,5 +53,6 @@
 			<td><input type="button" value="/" onclick="dis('/');"></input ></td>
 		</tr>
 	</table>
+	<script src="script.js"></script>
 </body>
 </html>
