@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    margin-top: 15%;
+    padding: 20%;
+    background-color: black;
+}
+#clock{
+    color: rgb(69, 250, 69);
+    background-color: black;
+    text-align: center;
+    font-size: 4em;
+    border: 5px solid rgb(42, 136, 42);
+    border-bottom-right-radius: 30px;
+}
