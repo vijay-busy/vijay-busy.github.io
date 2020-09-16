@@ -21,7 +21,7 @@ h1{
 #inputs input{
     width: 20%;
     height: 60px;
-    padding: 0px;
+    padding: 3px;
     font-size: 2.5em;
     margin-right: 2%;
 }
