@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    background-color: rgb(34, 33, 33);
+}
+h1{
+    color: white;
+    padding: 30px auto;
+    text-align: center;
+}
+#clock{
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 150px;
+    margin: 30px auto;
+}
+#inputs{
+    margin-top: 40%;
+    margin-left: 15%;
+}
+input{
+    padding: 0px;
+    font-size: 1.2em;
+    color: white;
+    width: 30%;
+    background-color: transparent;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+#buttons{
+    width: 75%;
+    margin-left: 18%;
+}
+button{
+    width: 25%;
+    margin-right: 3%;
+}
+#laps{
+    margin-top: 10px;
+}
+li{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h2{
+    color: white;
+    margin-right: 5%;
+    text-align: right;
+}
