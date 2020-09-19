@@ -2,7 +2,7 @@ var t;
 var mins;
 var secs;
 var msecs;
-
+var lmt=1;
 function start(){//dont ask me why i use "lmt".Do you want to know why i use this.
                 //remove all statements in start() and put myloop() statements in start and change myloop to start in setTimeout function and run and tap tap tap tap tap tap....... on start button in web page 😌
     if(lmt==1){
