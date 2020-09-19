@@ -67,20 +67,25 @@ function lap(){
     }
 }
 function reset(){
-    // clearTimeout(t);
-    // document.getElementById('minutes').value='';
-    // document.getElementById('seconds').value='';
-    // document.getElementById('mseconds').value='';
+    clearTimeout(t);
+    document.getElementById('minutes').value='';
+    document.getElementById('seconds').value='';
+    document.getElementById('mseconds').value='';
 
-    // mlap=undefined;
-    // slap=undefined;
-    // mslap=undefined;
+    mlap=undefined;
+    slap=undefined;
+    mslap=undefined;
     
-    // mins=undefined;
-    // secs=undefined;
-    // msecs=undefined;
+    mins=undefined;
+    secs=undefined;
+    msecs=undefined;
 
-    location.reload();
+    var x=i;
+    for(let j=1;j<x;j++){
+        document.getElementById('myli'+j).remove();
+    }
+    i=1;
+    // location.reload();
 }
 function zero(z){//to put zero infront of numbers from 0 to 9
     if(z<10){
