@@ -82,7 +82,7 @@ function reset(){
     mlap=undefined;
     slap=undefined;
     mslap=undefined;
-    
+    lmt=1;
     mins=undefined;
     secs=undefined;
     msecs=undefined;
