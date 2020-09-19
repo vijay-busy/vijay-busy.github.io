@@ -58,13 +58,14 @@ function lap(){
         mslap=zero(mslap);
 
         li=document.createElement('li');
-        li.setAttribute('id','myli');
+        li.setAttribute('id','myli'+i);
 
         var txtLap=document.createTextNode('lap '+i+' '+mlap+':'+slap+':'+mslap);
         li.appendChild(txtLap);
         document.getElementById('laps').appendChild(li);
         i++;
     }
+
 }
 function reset(){
     clearTimeout(t);
