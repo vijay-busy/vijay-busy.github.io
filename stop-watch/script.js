@@ -3,8 +3,14 @@ var mins;
 var secs;
 var msecs;
 
-function start(){
-
+function start(){//dont ask me why i use "lmt".Do you want to know why i use this.
+                //remove all statements in start() and put myloop() statements in start and change myloop to start in setTimeout function and run and tap tap tap tap tap tap....... on start button in web page 😌
+    if(lmt==1){
+        myloop();
+        lmt++;
+        }
+}
+function myloop(){
     mins=document.getElementById('minutes').value;
     secs=document.getElementById('seconds').value;
     msecs=document.getElementById('mseconds').value;
@@ -14,7 +20,7 @@ function start(){
         secs=0;
         msecs=0;
     }
-
+    //convert to int
     msecs=parseInt(msecs);
     secs=parseInt(secs);
     mins=parseInt(mins);
@@ -37,7 +43,7 @@ function start(){
     document.getElementById('seconds').value=secs;
     document.getElementById('mseconds').value=msecs;
 
-    t=setTimeout(start,10);
+    t=setTimeout(myloop,10);
 }
 var i=1;
 var mlap;
