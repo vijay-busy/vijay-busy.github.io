@@ -1,0 +1,23 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#myGame{
+    height: 50vh;
+}
+
+.box{
+    float: left;
+    width: 33%;
+    height: 15vh;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 4em;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: lightgreen;
+}
